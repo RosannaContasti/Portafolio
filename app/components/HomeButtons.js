@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const HomeButtons = () => {
   return (
@@ -18,7 +19,7 @@ const HomeButtons = () => {
           d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
         />
       </svg>
-      <button class="me-8 p-3 opacity-75">see my projects</button>
+      <Link href="/projects"><button class="me-8 p-3 opacity-75 font-sans text-stone-800">see my projects</button></Link>
     </div>
     <div class="flex items-center">
       <svg
@@ -35,7 +36,7 @@ const HomeButtons = () => {
           d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
         />
       </svg>
-      <button class="me-8 p-3 opacity-75">more about me</button>
+      <Link href="/about"><button class="me-8 p-3 opacity-75 font-sans text-stone-800">more about me</button></Link>
     </div>
   </div>
   )

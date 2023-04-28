@@ -2,8 +2,8 @@ import React from "react";
 
 const MenuButton = () => {
   return (
-    <div class="m-8" >
-      <button >
+    <div class="m-10">
+      <button>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
