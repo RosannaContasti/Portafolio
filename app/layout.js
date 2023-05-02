@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Home from "./page";
+//import ParticlesBackground from "./components/ParticlesBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,9 +13,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {children}
-      </body>
+      {/* <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+      ></link> */}
+      {/* <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:ital,wght@0,100;0,300;1,400&display=swap"
+        rel="stylesheet"
+      ></link> */}
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

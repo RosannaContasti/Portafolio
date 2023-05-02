@@ -3,16 +3,16 @@ import React from "react";
 const HomeTitle = () => {
   return (
     <>
-      <div class="mt-20 pt-20 text-4xl">
-        <p class="text-center text-stone-800">
-          Hey! I'm <strong class="text-red-400">Rosanna Contasti</strong>
+      <div id="title" class="mt-20 pt-20 text-4xl">
+        <p class="text-center text-stone-700">
+          hey! i'm <strong class="text-gray-950">rosanna contasti</strong>
           <br></br>
-          But you can call me <strong class="text-red-400">Rosi</strong>
+          but you can call me <strong class="text-gray-950">rosi</strong>
         </p>
       </div>
       <div class="text-7xl text-center ">
-        <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-300 relative inline-block">
-          <span class="relative text-stone-800">I'm a Fullstack dev</span>
+        <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gray-950 relative inline-block opacity-70">
+          <span class="relative text-gray-100">i'm a fullstack dev</span>
         </span>
       </div>
     </>
